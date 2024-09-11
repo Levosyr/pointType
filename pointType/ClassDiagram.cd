@@ -1,0 +1,17 @@
+﻿+----------------------------------+
+|            PointType<T>
+	|
+	+----------------------------------+
+	| - x: T                           |
+	| - y: T                           |
+	+----------------------------------+
+	| + PointType()                    |
+	| + PointType(T xVal, T yVal)      |
+	| + setX(T xVal): void             |
+	| + setY(T yVal): void             |
+	| + getX(): T                      |
+	| + getY(): T                      |
+	| + distance(const PointType<T>
+		& p)|: double
+		| + operator-(const PointType<T>& p)|: double
++----------------------------------+
